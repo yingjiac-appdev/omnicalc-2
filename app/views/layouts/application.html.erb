@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Omnicalc 2</title>
+    <%= csrf_meta_tags %>
+
+    <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
+    <meta charset="utf-8">
+
+    <!-- Make it responsive to small screens -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+  </head>
+
+  <body>
+      <table style="width: 100%" border="1">
+      <tr>
+        <td>
+          <a href="/add">Add</a>
+        </td>
+
+        <td>
+          <a href="/subtract">Subtract</a>
+        </td>
+
+        <td>
+          <a href="/multiply">Multiply</a>
+        </td>
+
+        <td>
+          <a href="/divide">Divide</a>
+        </td>
+      </tr>
+    </table>
+    <%= yield %>
+  </body>
+</html>
