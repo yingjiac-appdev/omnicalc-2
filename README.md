@@ -24,19 +24,19 @@ With that simple fact, combined with the way that HTML forms behave when submitt
 
 Wire up the following 4 RCAVs and add `<h1>` elements to each that say "Addition", "Subtraction", "Multiplication", and "Division":
 
- - `/add`
- - `/subtract`
- - `/multiply`
- - `/divide`
+ - `/wizard_add`
+ - `/wizard_subtract`
+ - `/wizard_multiply`
+ - `/wizard_divide`
 
 Use the [slides](https://slides.com/raghubetina/07-routing?token=Qj5aA5z3), [chapter](https://chapters.firstdraft.com/chapters/779), and your RPS RCAV workspace as a reference.
 
 ## Your second task
 
-Visit your `/add` URL, but type a query string on to the end: `?first_num=3&second_num=4`. So, the whole path should be:
+Visit your `/wizard_add` URL, but type a query string on to the end: `?first_num=3&second_num=4`. So, the whole path should be:
 
 ```
-/add?first_num=3&second_num=4
+/wizard_add?first_num=3&second_num=4
 ```
 
 First pull up the Terminal tab running your server and Cmd-K or Ctrl-K to clear it out, then visit that URL again. Scroll to the top of the Terminal tab. Read the log — what do you notice?
@@ -47,13 +47,9 @@ The `params` Parameters `Hash`! Use the `params` hash in the action you defined 
 
 Do the same thing for 
 
- - `/subtract`,
- - `/multiply`,
- - and `/divide`.
-
-## Review form attributes
-
-Remember when we [reverse engineered HTML forms](https://slides.com/raghubetina/04-essential-html-and-css?token=TunUbuP_#/11)? Review and remind yourself what each attribute does — `action`, `id`, `for`, `value`, `type`, `placeholder`, `name`.
+ - `/wizard_subtract`,
+ - `/wizard_multiply`,
+ - and `/wizard_divide`.
 
 ## Add forms
 
