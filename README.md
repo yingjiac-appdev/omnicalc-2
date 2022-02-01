@@ -24,10 +24,10 @@ With that simple fact, combined with the way that HTML forms behave when submitt
 
 Wire up the following 4 RCAVs and add `<h1>` elements to each that say "Addition", "Subtraction", "Multiplication", and "Division":
 
- - `/wizard_add`
- - `/wizard_subtract`
- - `/wizard_multiply`
- - `/wizard_divide`
+ - `/add`
+ - `/subtract`
+ - `/multiply`
+ - `/divide`
 
 Use the [slides](https://slides.com/raghubetina/07-routing?token=Qj5aA5z3), [chapter](https://chapters.firstdraft.com/chapters/779), and your RPS RCAV workspace as a reference.
 
