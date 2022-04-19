@@ -37,6 +37,7 @@ whitelist.yml
 grades.yml
 cloud9_plugins.sh
 appdev/
+vendor/bundle/*
 node_modules
 package-lock.json
 core.chrome*
