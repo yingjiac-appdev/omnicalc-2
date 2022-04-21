@@ -1,17 +1,19 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <title>Omnicalc 2</title>
-    <%= csrf_meta_tags %>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="O6Y2fgEf8z95xcY0R2ZIriPAX4jdf3cr7RgGMAQigeaobQZY3h2KqDPe/rjzjia53Daia6Dpuof85CsTiw6Rkw==" />
 
     <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
     <meta charset="utf-8">
 
     <!-- Make it responsive to small screens -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <%= csp_meta_tag %>
+    
 
-    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <link rel="stylesheet" media="all" href="/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css" />
   </head>
 
   <body>
@@ -31,6 +33,28 @@
 
         <td>
           <a href="/divide">Divide</a>
+        </td>
+
+        <td>
+          <a href="/muggle_translate">Translate</a>
+        </td>
+        
+        <td>
+          <a href="/street_to_coords/new">
+            Street to Coordinates
+          </a>
+        </td>
+
+        <td>
+          <a href="/coords_to_weather/new">
+            Coordinates to Weather
+          </a>
+        </td>
+
+        <td>
+          <a href="/street_to_weather/new">
+            Street to Weather
+          </a>
         </td>
       </tr>
     </table>
