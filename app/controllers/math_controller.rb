@@ -48,8 +48,7 @@ class MathController < ApplicationController
   end
 
 
-  #def
-    #apiruls should be a string as inputs
+
   
 
 end
