@@ -2,12 +2,7 @@ image: jelaniwoods/appdev2022-omnicalc-2
 
 tasks:
   - before: |
-      if [ ! -d ./vendor/bundle/ruby ]; then
-        cp -r /base-rails/gems/ruby vendor/bundle
-        bundle config set --local path 'vendor/bundle'
-        rails db:create db:migrate
-        rails db:seed
-      fi
+      bin/setup
 ports:
   - port: 3000
     onOpen: open-preview
