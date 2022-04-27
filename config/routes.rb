@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get('coords_to_weather/new', { :controller => "map", :action =>"coordinate_form"})
   get('street_to_weather/new', { :controller => "map", :action =>"weather_form"})
   get('/street_to_coords/results', { :controller => "map", :action =>"street_to_coor_results"})
+  get('/coords_to_weather/results', { :controller => "map", :action =>"coords_to_weather_results"})
+  get('/street_to_weather/results', { :controller => "map", :action =>"street_to_weather_results"})
   
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
